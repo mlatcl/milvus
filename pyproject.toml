@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "milvus"
+version = "0.1.0"
+description = ""
+authors = ["Markus Kaiser <mk2092@cam.ac.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b1"
+ipython = "^7.23.1"
+isort = "^5.8.0"
+pre-commit = "^2.13.0"
+pylint = "^2.8.3"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
