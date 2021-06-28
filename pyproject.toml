@@ -6,6 +6,7 @@ authors = ["Markus Kaiser <mk2092@cam.ac.uk>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+numpy = "^1.21.0"
 
 [tool.poetry.dev-dependencies]
 black = "^21.5b1"
@@ -13,6 +14,7 @@ ipython = "^7.23.1"
 isort = "^5.8.0"
 pre-commit = "^2.13.0"
 pylint = "^2.8.3"
+jupyterlab = "^3.0.16"
 
 [tool.isort]
 profile = "black"
