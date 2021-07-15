@@ -19,6 +19,9 @@ class _DummyObject:
     def __getattr__(self, name):
         return self
 
+    def __getitem__(self, name):
+        return self
+
 
 @dataclasses.dataclass
 class Record:
@@ -26,4 +29,3 @@ class Record:
 
 
 node = _identity_decorator
-data = dataclasses.dataclass
