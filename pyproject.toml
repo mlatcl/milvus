@@ -15,6 +15,7 @@ isort = "^5.8.0"
 pre-commit = "^2.13.0"
 pylint = "^2.8.3"
 jupyterlab = "^3.0.16"
+nbqa = "^0.13.1"
 
 [tool.isort]
 profile = "black"
